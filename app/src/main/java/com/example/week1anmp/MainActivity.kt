@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         // BUG FIX
 
+        // BUG FIX 2
+
         navController = (supportFragmentManager.findFragmentById(R.id.hostFragment)
                 as NavHostFragment).navController
         NavigationUI.setupActionBarWithNavController(this, navController,
