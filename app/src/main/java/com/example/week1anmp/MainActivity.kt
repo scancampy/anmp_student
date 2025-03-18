@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // WIP - Game Setup
+
         navController = (supportFragmentManager.findFragmentById(R.id.hostFragment)
                 as NavHostFragment).navController
         NavigationUI.setupActionBarWithNavController(this, navController,
