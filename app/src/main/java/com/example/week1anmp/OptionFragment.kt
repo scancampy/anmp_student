@@ -12,6 +12,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 class OptionFragment : BottomSheetDialogFragment() {
     private lateinit var binding:FragmentOptionBinding
     private val LEVEL = arrayOf("Easy", "Medium", "Hard", "Impossible")
+    // New Feature Added
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
